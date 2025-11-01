@@ -1,0 +1,10 @@
+{
+  "name": "@automation-framework/core",
+  "version": "1.0.0",
+  "description": "Core utilities for automation frameworks (logger, helpers)",
+  "type": "module",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
