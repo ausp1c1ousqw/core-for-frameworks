@@ -1,4 +1,5 @@
 import { ensureDirExists, generateTimestampedFileName, createLogFile } from "./fileHelpers.js";
-import logger from "./loggerSetup.js";
+import Logger from "./Logger.js";
+import { HookManager } from "./HookManager.js";
 
-export { logger, ensureDirExists, generateTimestampedFileName, createLogFile };
+export { Logger, HookManager, ensureDirExists, generateTimestampedFileName, createLogFile };
